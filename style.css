@@ -1,0 +1,130 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap");
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Switched to a clean, modern font reflecting a scientific and forward-thinking mindset */
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  /* A lighter, academic background for a clean and simple feel */
+  background: #ccffee;
+  /* A softer text color for better readability */
+  color: #495057;
+  line-height: 1.7;
+  padding: 1rem;
+}
+
+/* Main container */
+#main {
+  max-width: 900px;
+  margin: 1rem auto;
+  background: #fff;
+  padding: 2.5rem; /* Increased padding slightly for more whitespace */
+  /* Reduced border-radius for a more subtle, professional look */
+  border-radius: 8px;
+  /* Softer shadow for a lighter, more humble feel */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Title */
+#title {
+  text-align: center;
+  /* A deep, intellectual blue for headings */
+  color: #192a56;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+blockquote {
+  text-align: center;
+  margin: 2rem 1rem 1rem 1rem;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #34495e; /* A slightly softer, contemplative blue */
+}
+
+/* Image */
+#img-div {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto; /* Set to auto to maintain aspect ratio */
+  max-height: 450px; /* Control max height */
+  margin: 0 auto;
+  border-radius: 8px; /* Matching the container's border-radius */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#img-caption {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #777;
+  font-style: italic;
+}
+
+/* Info Section */
+#tribute-info h2,
+#tribute-info h3 {
+  margin: 1.5rem 0 0.5rem;
+  /* Consistent deep blue for all headings */
+  color: #192a56;
+  border-bottom: 2px solid #e8f1f2; /* Subtle underline for section breaks */
+  padding-bottom: 0.3rem;
+}
+
+#tribute-info p {
+  margin-bottom: 1rem;
+}
+
+#tribute-info ul {
+  margin: 1rem 0 1rem 1.5rem;
+  list-style-type: "🚀"; /* Using an emoji for a visionary touch */
+  padding-left: 1rem;
+}
+
+#tribute-info li {
+  margin-bottom: 0.5rem;
+  padding-left: 0.8rem;
+}
+
+/* Link */
+#tribute-link {
+  /* An inspirational, saffron-like color, hinting at his patriotism */
+  color: #f39c12;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+#tribute-link:hover {
+  border-bottom: 2px solid #f39c12;
+}
+
+footer {
+  max-width: 900px;
+  margin: 0 auto 2rem auto;
+  padding: 1.5rem;
+  text-align: center;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  #title {
+    font-size: 2rem;
+  }
+  #main {
+    padding: 1.5rem;
+  }
+}
