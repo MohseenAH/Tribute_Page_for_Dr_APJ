@@ -4,7 +4,7 @@ A responsive and SEO-friendly tribute page for Dr. APJ Abdul Kalam, the 11th Pre
 
 ![Project Screenshot](https://raw.githubusercontent.com/MohseenAH/Tribute_Page_for_Dr_APJ/main/Screenshot%20repo.webp)
 
-**[View Live Demo]([https://your-username.github.io/tribute-page/](https://tributepagebymh.netlify.app/))**
+[View Live Demo]([https://your-username.github.io/tribute-page/](https://tributepagebymh.netlify.app/)
 
 
 ---
